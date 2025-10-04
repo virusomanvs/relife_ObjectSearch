@@ -39,7 +39,7 @@
 | **chanceToSuccess** | `Float` | `0.11` | Базовый шанс успешного поиска предметов (11%) |
 | **itemListPreset** | `Array [String]` | `["ExamplePreset1"]` | Список пресетов предметов для использования |
 
-## Структура perksHandlesParam
+## Структура perksHandlesParam если установлен мод relife_AdvSkills
 
 Параметры перков, влияющих на поиск предметов:
 
