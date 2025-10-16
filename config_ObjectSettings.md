@@ -29,6 +29,7 @@
 | **Списки объектов** |
 | `objectsList` | `array[string]` | Список классов объектов для поиска | `["farm_strawstack", "misc_haybale"]` |
 | `ignoredObjectsList` | `array[string]` | Список игнорируемых объектов | `[]` |
+| `uiWindowShowOffset` | `map[string, vecotr]` | Список объектов для которых необходимо переопределить центр объекта (если плашка где то не там находится вы можете ее поднять или опустить) | `[]` |
 | **Параметры инструментов** |
 | `enableIsKindOfForTool` | `number` | Включить проверку родителя инструмента (0=нет, 1=да) | `0` |
 | `findWithToolMode` | `number` | Режим поиска с инструментом. Если 1 то необходимо искать с инструментом. Если 0 то сначала открыть инструментом, потом искать. | `1` |
@@ -40,7 +41,7 @@
 | `blockZonesRadius` | `array` | Радиусы заблокированных зон | `[]` |
 | `tierZonesList` | `array` | Список зон по уровням | `[]` |
 
-
+```json
 {
         "seasonPassIDConfig": "",
         "objectParamID": "RLF_Lootable_PostBox",
@@ -108,3 +109,4 @@
         "blockZonesRadius": [],
         "tierZonesList": []
     },
+```
