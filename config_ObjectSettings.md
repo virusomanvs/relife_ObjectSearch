@@ -39,3 +39,72 @@
 | `blockZones` | `array` | Список заблокированных зон | `[]` |
 | `blockZonesRadius` | `array` | Радиусы заблокированных зон | `[]` |
 | `tierZonesList` | `array` | Список зон по уровням | `[]` |
+
+
+{
+        "seasonPassIDConfig": "",
+        "objectParamID": "RLF_Lootable_PostBox",
+        "buildingTypeParamIDHandle": {},
+        "objectTitle": "#STR_OS_PostBox",
+        "objectCustomIcon": "relife_ObjectSearch/images/objects_icons/postal-box.edds",
+        "actionText": "#STR_OS_SearchAction #STR_OS_Small_PostBox",
+        "emptyText": "",
+        "registeredSoundSet": "RLF_knigi_looting_SoundSet",
+        "coolDownAfterSearchInMin": 0,
+        "timeToSearch": 3.0,
+        "chanceToDamageHands": 0.0,
+        "damageToGloves": [
+            0.0,
+            4.0,
+            8.0
+        ],
+        "damageHandsFindedItemClassContains": [],
+        "searchOnlyEmptyHands": 0,
+        "enableIsKindOfItemInHands": 0,
+        "ignoredObjectsInHands": [],
+        "showMiniGame": 0,
+        "miniGameType": 0,
+        "miniGameSettings": {
+            "lp_RequiredHits": 0,
+            "lp_RotationSpeed": 0.0,
+            "lp_RandomRotation": 0,
+            "lp_TimeToOpen": 0.0,
+            "lp_TimePenalty": 0.0,
+            "lp_TimeBonus": 0.0,
+            "lp_TargetTolerance": 0.0,
+            "sg_TotalCount": 0
+        },
+        "miniGameToolsNeed": [],
+        "objectsList": [
+            "RLF_Lootable_PostBox",
+            "postbox1",
+            "postbox2"
+        ],
+        "ignoredObjectsList": [],
+        "uiWindowShowOffset": {
+            "misc_postbox1.p3d": [
+                1.0,
+                -0.4000000059604645,
+                0.0
+            ]
+        },
+        "selectionNeed": {},
+        "enableIsKindOfForTool": 0,
+        "disableRegisteredSoundSet": 0,
+        "toolActionAnimHandler": {},
+        "findWithToolMode": 0,
+        "toolsToOpenList": [],
+        "addHealthToToolAfterUse": [
+            0.0,
+            4.0,
+            8.0
+        ],
+        "addQuantityToToolAfterUse": [
+            0.0,
+            4.0,
+            8.0
+        ],
+        "blockZones": [],
+        "blockZonesRadius": [],
+        "tierZonesList": []
+    },
