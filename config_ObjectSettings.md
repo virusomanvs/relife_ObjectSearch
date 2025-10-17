@@ -39,7 +39,7 @@
 | **Зоны** |
 | `blockZones` | `array` | Список заблокированных зон | `[]` |
 | `blockZonesRadius` | `array` | Радиусы заблокированных зон | `[]` |
-| `tierZonesList` | `array` | Список зон по уровням | `[]` |
+| `tierZonesList` | `array` | Список зон по уровням, который переопределяет значения objectParamID | `[]` |
 
 ```json
 {
