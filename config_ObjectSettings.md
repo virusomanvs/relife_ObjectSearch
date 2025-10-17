@@ -107,6 +107,24 @@
         ],
         "blockZones": [],
         "blockZonesRadius": [],
-        "tierZonesList": []
+        "tierZonesList": [
+            {
+                "tierName": "Tier1",
+                "objectParamID": "CustomParamID",
+                "buildingTypeParamIDHandle": {
+                    "HouseType": "paramID"
+                },
+                "zonesList": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "zonesRadiusList": [
+                    0
+                ]
+            }
+        ]
     },
 ```
