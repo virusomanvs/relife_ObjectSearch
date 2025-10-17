@@ -46,7 +46,7 @@
         "seasonPassIDConfig": "",
         "objectParamID": "RLF_Lootable_PostBox",
         "buildingTypeParamIDHandle": {
-                    "HouseType": "paramID"
+                    "HouseType": "objectParamID"
                 },
         "objectTitle": "#STR_OS_PostBox",
         "objectCustomIcon": "relife_ObjectSearch/images/objects_icons/postal-box.edds",
