@@ -39,7 +39,9 @@
 | `addQuantityToToolAfterUse` | `array[number]` | Изменение количества инструмента fact, если 1 параметр 0 то min, max| `[0.0, 0.0, 0.0]` |
 | **Настройка мини игр** |
 | `showMiniGame` | `bool` | Включить мини игру (доступно только в режиме findWithToolMode == 0) |  |
-| `miniGameType` | `int` | Вариант мини-игры. 0 - Отмычка, 1 - Сейф |  |
+| `miniGameType` | `int` | Вариант мини-игры. 0 - Отмычка, 1 - Сейф <img width="360" alt="Screenshot_27" src="https://github.com/user-attachments/assets/bbfa1c51-c1d0-4d68-ae82-e2937b7c88a4" /><img width="360"  alt="Screenshot_27" src="https://github.com/user-attachments/assets/a6c55b49-06c5-45c6-a454-33d54ccd3575" />
+
+|  |
 | `miniGameSettings` | `array` | Массив с настройками для мини игр. lp_ настройки для игры 0, sg_ настройки для игры 1 | `[]` |
 | `lp_RequiredHits` | `int` | Сколько раз нужно попасть в зону | 5 |
 | `lp_RotationSpeed` | `float` | Скорость вращения индикатора | 180 |
