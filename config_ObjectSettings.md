@@ -12,6 +12,7 @@
 | `objectTitle` | `string` | Заголовок/название объекта (ключ локализации) | `"#STR_OS_Hay"` |
 | `objectCustomIcon` | `string` | Путь к пользовательской иконке объекта | `""` |
 | `actionText` | `string` | Текст действия при взаимодействии (ключ локализации) | `"#STR_OS_SearchAction #STR_OS_Small_Hay"` |
+| `actionUnlockText` | `string` | Текст действия при открытии (ключ локализации) | `"#STR_OS_OpenWithTool` |
 | `emptyText` | `string` | Текст, отображаемый когда объект пуст | `""` |
 | **Аудио параметры** |
 | `registeredSoundSet` | `string` | Идентификатор набора звуков для воспроизведения | `"RLF_garbagesearching_SoundSet"` |
