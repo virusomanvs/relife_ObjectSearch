@@ -40,6 +40,7 @@
 | **Настройка мини игр** |
 | `showMiniGame` | `bool` | Включить мини игру (доступно только в режиме findWithToolMode == 0) |  |
 | `miniGameType` | `int` | Вариант мини-игры. 0 - Отмычка, 1 - Сейф <br><img width="100" alt="Screenshot_27" src="https://github.com/user-attachments/assets/bbfa1c51-c1d0-4d68-ae82-e2937b7c88a4" /><img width="100"  alt="Screenshot_26" src="https://github.com/user-attachments/assets/edc2ef3b-11cc-4caa-9c66-f6ee912ca6aa" />|  |
+| `miniGameToolsNeed` | `array[string]` | Список инструментов при использовании которых будет показана мини игра, если убрать, то без предметов. | `["Lockpick"]` |
 | `miniGameSettings` | `array` | Массив с настройками для мини игр. lp_ настройки для игры 0, sg_ настройки для игры 1 | `[]` |
 | `lp_RequiredHits` | `int` | Сколько раз нужно попасть в зону | 5 |
 | `lp_RotationSpeed` | `float` | Скорость вращения индикатора | 180 |
