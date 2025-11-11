@@ -54,6 +54,8 @@
 | `blockZones` | `array` | Список заблокированных зон | `[]` |
 | `blockZonesRadius` | `array` | Радиусы заблокированных зон | `[]` |
 | `tierZonesList` | `array` | Список зон по уровням, который переопределяет значения objectParamID | `[]` |
+| `chanceToTrapSpawn` | `float` | Шанс от 0 до 1 на то что в объекте будет ловушка | `[]` |
+| `trapClassnameList` | `map` | Список предметов с шансом их появления среди остальных которые есть в списке. То есть вы можете указать несколько вариантов ловушек (своих если у вас есть предметы по типу флешки которая сразу активируется или что-то другое.) В моде есть граната с задержкой каждые две секунды от 0 до 10. RLF_RGD5Grenade_0Sec RLF_RGD5Grenade_2Sec RLF_RGD5Grenade_4Sec RLF_RGD5Grenade_6Sec RLF_RGD5Grenade_8Sec RLF_RGD5Grenade_10Sec  | `[]` |
 
 ```json
 {
@@ -123,6 +125,10 @@
         ],
         "blockZones": [],
         "blockZonesRadius": [],
+        "chanceToTrapSpawn": 1.0,
+        "trapClassnameList": {
+            "RLF_RGD5Grenade_2Sec": 1.0
+        }
         "tierZonesList": [
             {
                 "tierName": "Tier1",
