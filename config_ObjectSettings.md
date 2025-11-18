@@ -35,8 +35,8 @@
 | `enableIsKindOfForTool` | `number` | Включить проверку родителя инструмента (0=нет, 1=да) | `0` |
 | `findWithToolMode` | `number` | Режим поиска с инструментом. Если 1 то необходимо искать с инструментом. Если 0 то сначала открыть инструментом, потом искать. | `1` |
 | `toolsToOpenList` | `array[string]` | Список инструментов для открытия/поиска | `["Pitchfork"]` |
-| `addHealthToToolAfterUse` | `array[number]` | Изменение прочности инструмента fact, если 1 параметр 0 то min, max| `[0.0, 0.0, 0.0]` |
-| `addQuantityToToolAfterUse` | `array[number]` | Изменение количества инструмента fact, если 1 параметр 0 то min, max| `[0.0, 0.0, 0.0]` |
+| `addHealthToToolAfterUse` | `array[number]` | Изменение прочности инструмента fact, если -1 то min, max| `[0.0, 0.0, 0.0]` |
+| `addQuantityToToolAfterUse` | `array[number]` | Изменение количества инструмента fact, если -1 то min, max| `[0.0, 0.0, 0.0]` |
 | **Настройка мини игр** |
 | `showMiniGame` | `bool` | Включить мини игру (доступно только в режиме findWithToolMode == 0) |  |
 | `miniGameType` | `int` | Вариант мини-игры. 0 - Отмычка, 1 - Сейф <br><img width="100" alt="Screenshot_27" src="https://github.com/user-attachments/assets/bbfa1c51-c1d0-4d68-ae82-e2937b7c88a4" /><img width="100"  alt="Screenshot_26" src="https://github.com/user-attachments/assets/edc2ef3b-11cc-4caa-9c66-f6ee912ca6aa" />|  |
